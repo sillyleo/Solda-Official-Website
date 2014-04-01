@@ -11,21 +11,30 @@ body {
 }
 
 .video-container {
+	position: relative;
 	margin: 0 auto;
 	height: 505px;
 	overflow: hidden;
-}
-
-video {
-	height: 530px;
-	overflow: hidden;
-  -webkit-mask: url("../img/video-mask.svg") center top no-repeat;
-	-webkit-mask-size: 594px;
-  -webkit-filter: blur(15px) saturate(0.8);
-  transition-property: all;
-  transition-duration: 0.7s;
-  &:hover {
-		height: 550px;
-	  -webkit-filter: blur(0px) saturate(1);
-  }
+	.play-now {
+		position: absolute;
+		z-index: 1;
+		top:150px;
+		left: 100px;
+		width: 110px;
+		height: 110px;
+		opacity: 0.9;
+	}
+	video {
+		height: 530px;
+		overflow: hidden;
+	  -webkit-mask: url("../img/video-mask.svg") center top no-repeat;
+		-webkit-mask-size: 594px;
+	  -webkit-filter: blur(15px) saturate(0.8);
+	  transition-property: all;
+	  transition-duration: 0.7s;
+	  &:hover {
+			height: 550px;
+		  -webkit-filter: blur(0px) saturate(1);
+	  }
+	}
 }
