@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+}
+
+#hero {
+	text-align: center;	
+}
+
+.video-container {
+	margin: 0 auto;
+	height: 505px;
+	overflow: hidden;
+}
+
+video {
+	height: 530px;
+	overflow: hidden;
+  -webkit-mask: url("../img/video-mask.svg") center top no-repeat;
+	-webkit-mask-size: 594px;
+  -webkit-filter: blur(15px) saturate(0.8);
+  transition-property: all;
+  transition-duration: 0.7s;
+  &:hover {
+		height: 550px;
+	  -webkit-filter: blur(0px) saturate(1);
+  }
+}

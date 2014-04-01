@@ -1,0 +1,33 @@
+/* line 1, style.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 9, style.scss */
+#hero {
+  text-align: center;
+}
+
+/* line 13, style.scss */
+.video-container {
+  margin: 0 auto;
+  height: 505px;
+  overflow: hidden;
+}
+
+/* line 19, style.scss */
+video {
+  height: 530px;
+  overflow: hidden;
+  -webkit-mask: url("../img/video-mask.svg") center top no-repeat;
+  -webkit-mask-size: 594px;
+  -webkit-filter: blur(15px) saturate(0.8);
+  transition-property: all;
+  transition-duration: 0.7s;
+}
+/* line 27, style.scss */
+video:hover {
+  height: 550px;
+  -webkit-filter: blur(0px) saturate(1);
+}
