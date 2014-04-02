@@ -1,40 +1,103 @@
+$red: #F75E50;
+
 * {
 	margin: 0;
 	padding: 0;
 }
 
+a {
+	text-decoration: none;
+}
+
 body {
+	background: #FAF8F5;
+	font-family: sans-serif;
 }
 
 #hero {
+	margin-top: 80px;
 	text-align: center;	
 }
 
+$video-width: 898 / 505 * 525; /* based on width 505px */
+$video-offset: 20px; /* to avoid blurred white border */
+
+/* video width need fixes */
+
 .video-container {
 	position: relative;
-	margin: 0 auto;
+	width: 594px;
 	height: 505px;
 	overflow: hidden;
+	margin: 0 auto;
 	.play-now {
+		transition-property: all;
+		transition-duration: 0.3s;
+		&:hover {
+			opacity: 1;
+			cursor: pointer;
+		}
 		position: absolute;
-		z-index: 1;
-		top:150px;
-		left: 100px;
+		top: 259px;
+		left: 242px;
 		width: 110px;
 		height: 110px;
-		opacity: 0.9;
+		opacity: 0.5;
+		margin: 0 auto;
+		z-index: 1;
 	}
 	video {
-		height: 530px;
-		overflow: hidden;
+		-webkit-transform: translateZ(0);
+		cursor: pointer;
+		position: relative;
+		left: - ( $video-width - 594px ) /2;
+		height: 505px + $video-offset;
 	  -webkit-mask: url("../img/video-mask.svg") center top no-repeat;
 		-webkit-mask-size: 594px;
-	  -webkit-filter: blur(15px) saturate(0.8);
+	  -webkit-filter: blur(10px) saturate(0.8);
 	  transition-property: all;
 	  transition-duration: 0.7s;
 	  &:hover {
-			height: 550px;
 		  -webkit-filter: blur(0px) saturate(1);
 	  }
+	}
+}
+
+.slogan {
+	width: 519px;
+	height: 53px;
+	margin: 0 auto;
+	background: url("../img/slogan.svg") center center no-repeat;
+	background-size: 519px;
+	margin-top: 65px;
+	color: transparent;
+}
+
+.punch-line {
+	font-family: "Lantinghei TC";
+	font-size: 15px;
+	font-weight: 300;
+	color: #9f8e75;
+	line-height: 18px;
+	letter-spacing: 6px;
+	margin-top: 23px;
+}
+
+.recruit {
+	background: $red;
+	display: inline-block;
+	height: 98px;
+	width: 98px;
+	color: white;
+	border-radius: 98px;
+	letter-spacing: 2px;
+	font-size: 20px;
+	line-height: 25px;
+	font-weight: bold;
+	box-sizing: border-box;
+	padding-top: 20px;
+	margin-top: 70px;
+	&:hover {
+		background: darken($red, 5%);
 	}
 }
