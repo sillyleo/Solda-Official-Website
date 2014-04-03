@@ -1,15 +1,23 @@
 <!doctype html>
 <html lang="en">
 <head>
+	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/style.css" />
-  <meta charset="UTF-8">
+	<script src="js/wow.min.js"></script>
+	<script>
+	 new WOW().init();
+	</script>
+	<meta charset="UTF-8">
   <title>Solda – 手打你的輕快販賣</title>
 </head>
 <body>
 	
 	<section id="hero">
 		<div class="video-container">
-			<video src="video/one-love.mp4" autoplay="false" muted="true" loop="true"></video>
+		<video class="wow fadeIn"  data-wow-delay="1s">
+<!-- 		http://www.html5rocks.com/en/tutorials/video/basics/ -->
+		  <source src="video/one-love.mp4#t=00:00:23" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'/>
+		</video>
 			<img class="play-now" src="img/play.svg" alt="" />
 		</div>
 		<h1 class="slogan">
@@ -17,11 +25,27 @@
 		</h1>
 		<h3 class="punch-line">隨時隨地用 iPhone 發佈販賣你的商品</h3>
 		
-		<a href="#recruit" class="recruit">商家<br/>召募中</a>
+		<p class="recruit"><a href="#recruit">商家<br/>召募中</a><span>為提昇服務品質，初期限量召募中。</span></p>
+		
+		<p><img src="img/cross.svg" class="cross" alt="" /></p>
 		
 	</section>
 	
-	<section></section>
+	<section id="channel">
+		<div class="left">
+			<h2>以您為主，<br/>
+各種裝置完美呈現。</h2>
+		<p>只要使用 iPhone 就可以輕鬆建立功能完整的購物通路。我們以商家為中心來思考整體設計，讓您的顧客在購買與瀏覽時能明確知道你的名字與品牌、而不是隸屬於大購物網站下的某某賣家。</p>
+		</div>
+		<div class="right">
+			<p class="devices">
+				<a class="link-to-demo" href="#">點擊觀看範例<br/><img src="../img/arrow.svg" alt="" /></a>
+				<img src="img/content-1.svg" alt="" class="content-1 wow bounceInUp" data-wow-delay="1s" />
+				<img src="img/content-2.svg" alt="" class="content-2 wow bounceInUp" data-wow-delay="1.5s"  />
+				<img src="img/content-3.svg" alt="" class="content-3 wow bounceInUp" data-wow-delay="2s"  />
+			</p>
+		</div>
+	</section>
 	
 <%= livereload_js %>
 </body>
