@@ -304,7 +304,7 @@ body {
 }
 
 #chats {
-		margin: 180px auto;
+	margin: 180px auto;
 	.left {
 		text-align: right;
 		@include col(55%, 20px);
@@ -316,5 +316,59 @@ body {
 	}
 	h2 {
 		text-align: left;
+	}
+}
+
+#detail {
+	h2 {
+		margin-bottom: 60px;
+	}
+	text-align: left;
+	.left {
+		@include col(45%, 30px);
+		margin-left: 80px;
+	}
+	.right {
+		@include col(40%, 30px);
+	}
+	div > img {
+		width: 65px;
+		float: left;
+		display: block;
+	}
+	h3 {
+		font-size: 17px;
+		margin-bottom: 10px;
+	}
+	div > p {
+		margin-bottom: 36px;
+		margin-left: 90px;
+	}
+	.left p {
+		height: 50px;
+	}
+	div > h3 {
+		margin-left: 90px;
+	}
+	
+	.rates {
+		p, h3 {
+			margin-left: 0;
+			margin-bottom: 30px;
+		}
+		.blue {
+			color: #7ED3E4;
+			margin-top: 0;
+		}
+		img.rates {
+			margin-top: 5px;
+			margin-bottom: 10px;
+		}
+	}
+	.right {
+		hr {
+			width: 100%;
+			margin-bottom: 30px;
+		}
 	}
 }

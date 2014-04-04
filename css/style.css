@@ -372,3 +372,73 @@ body {
 #chats h2 {
   text-align: left;
 }
+
+/* line 322, style.scss */
+#detail {
+  text-align: left;
+}
+/* line 323, style.scss */
+#detail h2 {
+  margin-bottom: 60px;
+}
+/* line 327, style.scss */
+#detail .left {
+  width: 44%;
+  display: inline-block;
+  padding: 0 30px;
+  box-sizing: border-box;
+  vertical-align: top;
+  margin-left: 80px;
+}
+/* line 331, style.scss */
+#detail .right {
+  width: 39%;
+  display: inline-block;
+  padding: 0 30px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+/* line 334, style.scss */
+#detail div > img {
+  width: 65px;
+  float: left;
+  display: block;
+}
+/* line 339, style.scss */
+#detail h3 {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+/* line 343, style.scss */
+#detail div > p {
+  margin-bottom: 36px;
+  margin-left: 90px;
+}
+/* line 347, style.scss */
+#detail .left p {
+  height: 50px;
+}
+/* line 350, style.scss */
+#detail div > h3 {
+  margin-left: 90px;
+}
+/* line 355, style.scss */
+#detail .rates p, #detail .rates h3 {
+  margin-left: 0;
+  margin-bottom: 30px;
+}
+/* line 359, style.scss */
+#detail .rates .blue {
+  color: #7ED3E4;
+  margin-top: 0;
+}
+/* line 363, style.scss */
+#detail .rates img.rates {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+/* line 369, style.scss */
+#detail .right hr {
+  width: 100%;
+  margin-bottom: 30px;
+}
