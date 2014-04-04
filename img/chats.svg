@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="818px" height="608px" viewBox="0 0 818 608" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>chats</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Introduction" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="iPad" sketch:type="MSArtboardGroup" transform="translate(-633.000000, -4803.000000)">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(633.000000, 4803.000000)">
+                <g id="Rectangle-115-+-你好，請問這次的西瓜甜不甜？" transform="translate(126.000000, 0.399783)">
+                    <path d="M17.75,48.3797257 C17.75,21.8642289 39.2455083,0.379725677 65.7615617,0.379725677 L421.273595,1.87972568 C447.798202,1.87972568 469.285156,23.3700577 469.285156,49.8797257 C469.285156,76.3952224 447.789648,97.8797257 421.273595,97.8797257 L65.7615617,96.3797257 C51.1504026,96.3797257 38.0678638,89.8587205 29.2634509,79.5698418 C19.8599282,87.4086124 0.438120644,85.7284594 0.438120644,85.7284594 C0.438120644,85.7284594 -1.11015023,85.5605332 0.438119788,84.7851318 C5.22656261,82.3869937 17.5982708,74.446837 17.5982725,49.8797257 C17.7577056,49.381965 17.75,48.8817453 17.75,48.3797257 Z" id="Rectangle-115" fill="#F2EBE0" sketch:type="MSShapeGroup"></path>
+                    <text id="現在的西瓜如何？" fill="#A5947A" sketch:type="MSTextLayer" font-family="XinGothic-TC W5" font-size="46" font-weight="normal">
+                        <tspan x="66" y="67">現在的西瓜如何？</tspan>
+                    </text>
+                </g>
+                <path d="M144,552.5 C144,525.984503 165.495508,504.5 192.011562,504.5 L457.488438,504.5 C484.013045,504.5 505.5,525.990332 505.5,552.5 C505.5,579.015497 484.004492,600.5 457.488438,600.5 L192.011562,600.5 C177.400403,600.5 164.317864,593.978995 155.513451,583.690116 C146.109928,591.528887 126.688121,589.848734 126.688121,589.848734 C126.688121,589.848734 125.13985,589.680808 126.68812,588.905406 C131.476563,586.507268 143.848271,578.567111 143.848272,554 C144.007706,553.502239 144,553.00202 144,552.5 Z" id="Rectangle-115" fill="#F2EBE0" sketch:type="MSShapeGroup"></path>
+                <text id="聽起來不錯！" fill="#A5947A" sketch:type="MSTextLayer" font-family="XinGothic-TC W5" font-size="46" font-weight="normal">
+                    <tspan x="193.5" y="570">聽起來不錯！</tspan>
+                </text>
+                <g id="Rectangle-115-+-http://solda.io/leo/" transform="translate(188.000000, 263.000000)">
+                    <path d="M18,145.880137 L18,40.3703861 C18,18.288386 35.9090407,0.379725677 58.000962,0.379725677 L588.999038,0.379725677 C611.085988,0.379725677 629,18.2841542 629,40.3703861 L629,155.389065 C629,177.471065 611.090959,195.379726 588.999038,195.379726 L58.000962,195.379726 C44.4234957,195.379726 32.4229433,188.613813 25.1913539,178.26975 C15.1829264,182.982384 0.688120644,181.728459 0.688120644,181.728459 C0.688120644,181.728459 -0.860150234,181.560533 0.688119788,180.785132 C5.47656261,178.386994 17.8482708,170.446837 17.8482725,145.879726 C17.8989536,145.879726 17.9495294,145.879863 18,145.880137 Z" id="Rectangle-115" fill="#D8E6EA" sketch:type="MSShapeGroup" transform="translate(314.500000, 97.879726) scale(-1, 1) translate(-314.500000, -97.879726) "></path>
+                    <text id="http://solda.io/leo/" fill="#69B6C5" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="47" font-weight="normal" sketch:alignment="right" line-spacing="48" text-decoration="underline">
+                        <tspan x="43" y="88">http://solda.io/leo/12863</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle-115-+-現在正是季節" transform="translate(351.000000, 141.000000)">
+                    <rect id="Rectangle-115" fill="#D8E6EA" sketch:type="MSShapeGroup" transform="translate(224.500000, 48.379726) scale(-1, 1) translate(-224.500000, -48.379726) " x="0" y="0.379725677" width="449" height="96" rx="32"></rect>
+                    <text id="正是季節，很甜！" fill="#81B2BF" sketch:type="MSTextLayer" font-family="XinGothic-TC W5" font-size="46" font-weight="normal">
+                        <tspan x="43" y="64">正是季節，很甜！</tspan>
+                    </text>
+                </g>
+                <text id="Text" fill="#81B2BF" sketch:type="MSTextLayer" font-family="XinGothic-TC W5" font-size="46" font-weight="normal">
+                    <tspan x="240" y="415">要不要順便帶一包高麗菜</tspan>
+                </text>
+                <g transform="translate(0.000000, 1.000000)" sketch:type="MSShapeGroup">
+                    <path d="M48,96.3997835 C74.5096693,96.3997835 96,74.9094528 96,48.3997835 C96,21.8901142 74.5096693,0.399783474 48,0.399783474 C21.4903307,0.399783474 0,21.8901142 0,48.3997835 C0,74.9094528 21.4903307,96.3997835 48,96.3997835 Z" id="Oval-45" fill="#F6D86B"></path>
+                    <circle id="Oval-64" fill="#000000" cx="25" cy="36" r="6"></circle>
+                    <circle id="Oval-64" fill="#000000" cx="69" cy="36" r="6"></circle>
+                    <path d="M26.4677734,63.3652344 C26.4677734,63.3652344 32.0982563,64.6586909 47.9072834,63.3652344 C63.7163101,62.0717773 69.1318359,59.7255859 69.1318359,59.7255859 C69.1318359,59.7255859 70.3193374,75.3144531 49.4990234,76.4599609 C28.6787095,77.605469 26.4677734,63.3652344 26.4677734,63.3652344 Z" id="Path-585" stroke="#CD4F20" fill="#CD5020"></path>
+                </g>
+                <g transform="translate(0.000000, 511.000000)" sketch:type="MSShapeGroup">
+                    <path d="M48,96.3997835 C74.5096693,96.3997835 96,74.9094528 96,48.3997835 C96,21.8901142 74.5096693,0.399783474 48,0.399783474 C21.4903307,0.399783474 0,21.8901142 0,48.3997835 C0,74.9094528 21.4903307,96.3997835 48,96.3997835 Z" id="Oval-45" fill="#F6D86B"></path>
+                    <circle id="Oval-64" fill="#000000" cx="25" cy="36" r="6"></circle>
+                    <circle id="Oval-64" fill="#000000" cx="69" cy="36" r="6"></circle>
+                    <path d="M26.4677734,63.3652344 C26.4677734,63.3652344 32.0982563,64.6586909 47.9072834,63.3652344 C63.7163101,62.0717773 69.1318359,59.7255859 69.1318359,59.7255859 C69.1318359,59.7255859 70.3193374,75.3144531 49.4990234,76.4599609 C28.6787095,77.605469 26.4677734,63.3652344 26.4677734,63.3652344 Z" id="Path-585" stroke="#CD4F20" fill="#CD5020"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -249,6 +249,7 @@ body {
 }
 
 #listing {
+		margin-top: 200px;
 		hr {
 			width: 300px;
 			margin: 0 auto;
@@ -299,5 +300,21 @@ body {
 		width: 324px;
 		margin: 25px auto;
 		text-align: center;
+	}
+}
+
+#chats {
+		margin: 180px auto;
+	.left {
+		text-align: right;
+		@include col(55%, 20px);
+	}
+	.right {
+		margin-top: 80px;
+		text-align: left;
+		@include col(33%, 20px);
+	}
+	h2 {
+		text-align: left;
 	}
 }
