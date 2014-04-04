@@ -1,5 +1,8 @@
 $red: #F75E50;
 $content-width: 900px;
+$video-width: 898 / 505 * 525; /* based on width 505px */
+$video-offset: 20px; /* to avoid blurred white border */
+
 
 @mixin col($width, $gutter) {
 	width: $width - 1;
@@ -19,6 +22,9 @@ $content-width: 900px;
 
 a {
 	text-decoration: none;
+	&:hover {
+		color: $red;
+	}
 }
 
 section {
@@ -26,6 +32,37 @@ section {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+hr {
+	border: none;
+	display: block;
+	background: #F2EBE0;
+	height: 10px;
+	border: 3px solid #FAF8F5;
+	border-radius: 5px;
+}
+
+p {
+	font-size: 14px;
+	color: #7F6F59;
+	line-height: 23px;
+}
+
+
+h2 {
+	small {
+		color: #D9CFBF;
+		font-size: 25px;
+	}
+	font-family: HiraKakuPro-W6;
+	font-size: 25px;
+	color: #000000;
+	line-height: 30px;
+	letter-spacing: 3px;
+	text-align: center;
+	margin-bottom: 24px;
+}
+
 
 body {
 	font-family: "Lantinghei TC", sans-serif;
@@ -36,10 +73,108 @@ body {
 #hero {
 	margin-top: 80px;
 	text-align: center;	
+	.video-container {
+		position: relative;
+		width: 594px;
+		height: 505px;
+		overflow: hidden;
+		margin: 0 auto;
+		.play-now {
+			transition-property: all;
+			transition-duration: 0.3s;
+			&:hover {
+				opacity: 1;
+				cursor: pointer;
+			}
+			position: absolute;
+			top: 259px;
+			left: 242px;
+			width: 110px;
+			height: 110px;
+			opacity: 0.5;
+			margin: 0 auto;
+			z-index: 1;
+		}
+		video {
+			-webkit-transform: translateZ(0);
+			cursor: pointer;
+			position: relative;
+			left: - ( $video-width - 594px ) /2;
+			height: 505px + $video-offset;
+		  -webkit-mask: url("../img/video-mask.svg") center top no-repeat;
+			-webkit-mask-size: 594px;
+		  -webkit-filter: blur(5px) saturate(0.8);
+		  transition-property: all;
+		  transition-duration: 0.7s;
+		  &:hover {
+			  -webkit-filter: blur(0px) saturate(1);
+		  }
+		}
+	}
+	
+	.slogan {
+		width: 519px;
+		height: 53px;
+		margin: 0 auto;
+		background: url("../img/slogan.svg") center center no-repeat;
+		background-size: 519px;
+		margin-top: 65px;
+		color: transparent;
+	}
+	
+	.punch-line {
+		font-size: 15px;
+		font-weight: 300;
+		color: #9f8e75;
+		line-height: 18px;
+		letter-spacing: 6px;
+		margin-top: 23px;
+	}
+	
+	.recruit {
+		width: 98px;
+		margin: 70px auto 0 auto;
+		position: relative;
+		a {
+			display: inline-block;
+			background: url("../img/recruit.svg") center center no-repeat;
+			background-size: 98px;
+			height: 98px;
+			width: 98px;
+			color: white;
+			border-radius: 98px;
+			letter-spacing: 2px;
+			font-size: 20px;
+			line-height: 25px;
+			font-weight: bold;
+			padding-top: 20px;
+			&:hover {
+				opacity: 0.9;
+			}		
+		}
+		span {
+			position: absolute;
+			display: block;
+			left: 130px;
+			text-align: left;	
+			width: 120px;
+			top: 30px;
+			font-size: 13px;
+			font-weight: 300;
+			line-height: 20px;
+			color: darken(#F2EBE0,30%);
+			font-style: italic;
+			letter-spacing: 2px;
+		}
+	}
+	
+	.cross {
+		width: 60px;
+		height: 60px;
+		margin-top: 70px;
+	}
+	
 }
-
-$video-width: 898 / 505 * 525; /* based on width 505px */
-$video-offset: 20px; /* to avoid blurred white border */
 
 @-webkit-keyframes shaking
 {
@@ -47,126 +182,14 @@ $video-offset: 20px; /* to avoid blurred white border */
 	100% {top: 2px;}
 }
 
-
-/* video width need fixes */
-
-.video-container {
-	position: relative;
-	width: 594px;
-	height: 505px;
-	overflow: hidden;
-	margin: 0 auto;
-	.play-now {
-		transition-property: all;
-		transition-duration: 0.3s;
-		&:hover {
-			opacity: 1;
-			cursor: pointer;
-		}
-		position: absolute;
-		top: 259px;
-		left: 242px;
-		width: 110px;
-		height: 110px;
-		opacity: 0.5;
-		margin: 0 auto;
-		z-index: 1;
-	}
-	video {
-		-webkit-transform: translateZ(0);
-		cursor: pointer;
-		position: relative;
-		left: - ( $video-width - 594px ) /2;
-		height: 505px + $video-offset;
-	  -webkit-mask: url("../img/video-mask.svg") center top no-repeat;
-		-webkit-mask-size: 594px;
-	  -webkit-filter: blur(5px) saturate(0.8);
-	  transition-property: all;
-	  transition-duration: 0.7s;
-	  &:hover {
-		  -webkit-filter: blur(0px) saturate(1);
-	  }
-	}
-}
-
-.slogan {
-	width: 519px;
-	height: 53px;
-	margin: 0 auto;
-	background: url("../img/slogan.svg") center center no-repeat;
-	background-size: 519px;
-	margin-top: 65px;
-	color: transparent;
-}
-
-.punch-line {
-	font-size: 15px;
-	font-weight: 300;
-	color: #9f8e75;
-	line-height: 18px;
-	letter-spacing: 6px;
-	margin-top: 23px;
-}
-
-.recruit {
-	width: 98px;
-	margin: 70px auto 0 auto;
-	position: relative;
-	a {
-		display: inline-block;
-		background: url("../img/recruit.svg") center center no-repeat;
-		background-size: 98px;
-		height: 98px;
-		width: 98px;
-		color: white;
-		border-radius: 98px;
-		letter-spacing: 2px;
-		font-size: 20px;
-		line-height: 25px;
-		font-weight: bold;
-		padding-top: 20px;
-		&:hover {
-			opacity: 0.9;
-		}		
-	}
-	span {
-		position: absolute;
-		display: block;
-		left: 130px;
-		text-align: left;	
-		width: 120px;
-		top: 30px;
-		font-size: 13px;
-		font-weight: 300;
-		line-height: 20px;
-		color: darken(#F2EBE0,30%);
-		font-style: italic;
-		letter-spacing: 2px;
-	}
-}
-
-.cross {
-	width: 60px;
-	height: 60px;
-	margin-top: 70px;
+@-webkit-keyframes shaking-hoz
+{
+	0% { right: -3px;}
+	100% {right: 2px;}
 }
 
 #channel {
 	margin: 100px auto;
-	h2 {
-		font-family: HiraKakuPro-W6;
-		font-size: 25px;
-		color: #000000;
-		line-height: 30px;
-		letter-spacing: 3px;
-		text-align: center;
-		margin-bottom: 24px;
-	}
-	p {
-		font-size: 14px;
-		color: #7F6F59;
-		line-height: 23px;
-	}
 	.left {
 		@include col(43%, 30px);
 	}
@@ -182,6 +205,9 @@ $video-offset: 20px; /* to avoid blurred white border */
 		background-size: 426px;
 		
 		a.link-to-demo {
+			&:hover {
+				color: $red;
+			}
 			text-align: center;
 			position: absolute;
 			font-size: 13px;
@@ -219,5 +245,59 @@ $video-offset: 20px; /* to avoid blurred white border */
 			left: 266px;
 			width: 90.5px;
 		}
+	}
+}
+
+#listing {
+		hr {
+			width: 300px;
+			margin: 0 auto;
+		}
+	.video-container {
+		position: relative;
+		a.link-to-demo {
+			&:hover {
+				color: $red;
+			}
+			text-align: center;
+			position: absolute;
+			font-size: 13px;
+			color: #7F6F59;
+			left: 0px;
+			top: 160px;
+				img {
+				margin-left: 4px;
+				top: 2px;
+				-webkit-animation-name: shaking-hoz;
+				-webkit-animation-duration: 0.8s;
+				-webkit-animation-direction: alternate;
+				-webkit-animation-iteration-count: infinite;
+				-webkit-animation-timing-function: ease-in-out;
+				-webkit-animation-fill-mode: forwards;
+				width: 8px;
+				position: relative;
+				}
+		}
+		width: 700px;
+		height: 322px;
+		margin: 0 auto;
+		text-align: center;
+		background: url("../img/iphone.svg") center top no-repeat;
+		background-size: 260px;
+		overflow: hidden;
+		video {
+			border-radius: 3px;
+			border: 1px solid rgba(0,0,0,0.2);
+			margin-top: 77px;
+			width: 224px;
+		}
+	}
+	h2 {
+		margin-top: 23px;
+	}
+	p {
+		width: 324px;
+		margin: 25px auto;
+		text-align: center;
 	}
 }
