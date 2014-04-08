@@ -1,3 +1,9 @@
+@charset "UTF-8";
+
+/* @media (min-width:1025px) { */
+	@import "animate";
+/* } */
+
 $red: #F75E50;
 $content-width: 900px;
 $video-width: 898 / 505 * 525; /* based on width 505px */
@@ -96,7 +102,6 @@ body {
 			z-index: 1;
 		}
 		video {
-			-webkit-transform: translateZ(0);
 			cursor: pointer;
 			position: relative;
 			left: - ( $video-width - 594px ) /2;
@@ -400,7 +405,7 @@ body {
 					background: rgba(217,200,164,0.6);
 				}
 			}
-			color: #7F6F59;
+			color: darken(#7F6F59, 8%);
 			span {
 				line-height: 16px;
 				font-size: 13px;
