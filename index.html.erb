@@ -2,30 +2,25 @@
 <html lang="zh-tw">
 <head>
 	<link rel="stylesheet" href="css/style.css" />
-<!-- 	<script src="js/enquire.min.js"></script> -->
 	<script src="js/wow.min.js"></script>
+<!--
+	<script src="js/jquery-2.1.0.min.js"></script>
+	<script src="js/effects.js"></script>
+-->
 	<script>
-/* 		enquire.register("screen and (min-width:45em)", function() { */
 			new WOW().init();
-/* 	  }); */
 	</script>
 	<meta charset="UTF-8">
   <title>Solda – 手打你的輕快販賣</title>
 </head>
 <body>
 
-		<video data-wow-delay="1s" preload="true" autoplay="true" muted="true" >
-		  <source src="video/one-love.mp4"/>
-		</video>
 	
 	<section id="hero">
-		<div class="video-container">
-		<video data-wow-delay="1s" preload="true">
-<!-- 		http://www.html5rocks.com/en/tutorials/video/basics/ -->
-		  <source src="video/one-love.mp4"/>
-		</video>
-			<img class="play-now" src="img/play.svg" alt="" />
-		</div>
+	<div class="video-wrapper">
+		<video src="video/one-love.mp4" autoplay muted preload poster="img/poster.jpg" ></video>	
+		<a href="video/one-love.mp4"><img class="play-now" src="img/play.svg" alt="" /></a>
+	</div>
 		<h1 class="slogan">
 			手打你的輕快販賣
 		</h1>
@@ -39,13 +34,14 @@
 	
 	<section id="channel">
 		<div class="left">
-			<h2>以您為主，<br/>
+			<h2>以你為主，<br/>
 各種裝置完美呈現。</h2>
-		<p>只要使用 iPhone 就可以輕鬆建立功能完整的購物通路。我們以商家為中心來思考整體設計，讓您的顧客在購買與瀏覽時能明確知道你的名字與品牌、而不是隸屬於大購物網站下的某某賣家。</p>
+		<p>手打 + 臉書 = 你的專屬通路，用 iPhone 就能輕鬆打造。<br/><br/>手打以品牌為設計核心，讓顧客注視著你的名字與商品，而不是隸屬於大購物網站下的某某賣家。<br/>你應該專心追尋更好的商品，不再煩惱購物網站。
+</p>
 		</div>
 		<div class="right">
 			<p class="devices">
-				<a class="link-to-demo" href="#">點擊觀看範例<br/><img src="../img/arrow.svg" alt="" /></a>
+				<a class="link-to-demo" href="#">點擊觀看實際範例<br/><img src="../img/arrow.svg" alt="" /></a>
 				<a href="http://solda.leolin.the-hold.handlino.com"><img src="img/content-1.svg" alt="" class="content-1 wow fadeInUp" data-wow-delay="1s" /></a>
 				<a href="http://solda.leolin.the-hold.handlino.com"><img src="img/content-2.svg" alt="" class="content-2 wow fadeInUp" data-wow-delay="1.5s"  /></a>
 				<a href="http://solda.leolin.the-hold.handlino.com"><img src="img/content-3.svg" alt="" class="content-3 wow fadeInUp" data-wow-delay="2s"  /></a>
@@ -55,53 +51,74 @@
 	
 	<section id="listing">
 		<div class="video-container">
-				<a class="link-to-demo" href="#">幾張圖，一行文，便利上架 <img src="../img/arrow.svg" alt="" /></a>
-			<video poster="img/demo.png" class="wow fadeIn" src="" />
+			<a class="link-to-demo" href="#">幾張圖，一行文，便利上架 <img src="../img/arrow.svg" alt="" /></a>
+			<img src="img/demo.png" class="video-placeholder wow fadeIn" />
 		</div>
 		<hr />
-		<h2>大師相機 <small>+</small> 天才鍵盤 <small>=</small> 便利上架</h2>
-		<p>產品介紹未必要打很多文字才會吸引人。
-多拍幾張照片，添加相關連結，加上一行精準的說明，就可以提供足夠多的資訊，發佈商品可以很便利。</p>
-		<p>您的商品可以同時出現在 Facebook，Twitter 上，也可以將商品傳送給 Line 的朋友。</p>
+		<h2>大師相機 <small>×</small> 天才鍵盤 <small>=</small> 便利上架</h2>
+		<p>告別落落長的文案，圖片才是打動人心的關鍵。<br/>快拍多張照片，輸入一行精準的說明，附加連結，立即發佈！</p>
 		<p><img src="img/ss.svg" alt="" width="185px;" /></p>
+	</section>
+	
+	<section id="post-to-fb">
+		<div class="left">
+			<h2>一次發佈到多個頁面</h2>
+			<p>手打可以幫你<strong class="underline">一次發佈到多個粉絲專頁與社團</strong>。<br/>臉書相簿就是你的品牌型錄，手機也能順暢瀏覽，逛粉絲團等於逛賣場！</p>
+			<p>
+			</p>
+		</div>
+		<div class="right">
+			<img class="wow fadeInUp check-mark"  data-wow-delay="2s" src="img/check.svg" width="24" alt="" />
+			<img class="wow fadeInUp check-mark"  data-wow-delay="2.2s" src="img/check.svg" width="24" alt="" />
+			<img class="wow fadeInUp check-mark"  data-wow-delay="2.3s" src="img/check.svg" width="24" alt="" />
+			<img class="wow fadeInUp check-mark"  data-wow-delay="2.4s" src="img/check.svg" width="24" alt="" />
+			<img class="wow fadeInUp check-mark"  data-wow-delay="2.5s" src="img/check.svg" width="24" alt="" />
+<!--
+			<img class="fb1" src="img/fb1.svg" width="282" alt="" />
+			<img class="fb2" src="img/fb2.svg" width="282" alt="" />
+-->
+		</div>
 	</section>
 	
 	<section id="chats">
 		<div class="left">
-			<img width="409" src="img/chats.svg" alt="" class="wow fadeInLeft" />
+			<img width="409" src="img/chats.svg" alt="" data-wow-delay="3s"  class="wow fadeInLeft" />
 		</div>
 		<div class="right">
-			<h2>手機即時問答</h2>
-			<p>對於商品有問題時，顧客可以傳訊息問你，即使是不見面，您的顧客仍然可以感受到您的用心。</p>
+			<h2>為交易而生的即時通訊</h2>
+			<p>請積極回答問題，甚至是聊聊天，<br/>讓顧客感受你的用心，像在市集那樣溫暖的交易吧。</p>
 		</div>
 	</section>
 	
 	<section id="detail">
-		<h2>最需要的功能，最輕鬆的流程</h2>
+		<h2>功能完整，輕鬆流程</h2>
 		<div class="left">
 			<img src="img/tags.svg" alt="" />
-			<h3>上架、接單、收款</h3>
-			<p>從上架，接單，收款都不需使用電腦。輕量化您的工作流程。</p>
+			<h3>金流與收款</h3>
+			<p>接受線上刷卡與 ATM 轉帳，也提供貨到付款（需自行申請）與面交選項。</p>
 			<img src="img/shipping.svg" alt="" />
 			<h3>運送與出貨</h3>
-			<p>簡便設定運費規則與寄送方式，支援信用卡付款與 ATM 轉帳。</p>
+			<p>簡便的運費與寄送設定，出貨時自動發送訊息、email 給顧客。</p>
 			<img src="img/rating.svg"alt="" style="position: relative; top: -5px; left: -1px;" />
 			<h3>評價機制</h3>
-			<p>每一次的交易，都有留下評價的機會，讓新的客人更放心購買您的商品。</p>
+			<p>每次交易，都有留下評價的機會，讓網路上的顧客更放心購買你的商品。</p>
 			<img src="img/browser.svg" alt="" />
-			<h3>網路版瀏覽與管理介面</h3>
-			<p>我們也提供網路版後台，讓您利用瀏覽器查看訂單、與客人傳訊。</p>
+			<h3>網路版管理界面</h3>
+			<p>手打也提供網路版後台，讓你用瀏覽器處理大量訂單，更有效率的傳訊。</p>
 		</div>
 		<div class="right">
 			<div class="rates">
-				<h3>早期優惠費率</h3>
+				<h3>收費方式</h3>
 				<p class="blue"><img width="168" class="rates" src="img/rate.svg" alt="" /><br/>7 天撥款，無月費。</p>
 				<p>初期我們只對商家收取基本的金流費用，未來隨著服務品質的穩定與提昇，並推出更多加值服務後，會推出更完整的收費方案，也因此在這段期間只接受限量商家申請。</p>
 			</div>
 			<hr />
-			<img src="img/kanban.svg" width="39" alt="" />
-			<h3>手打官方道具店</h3>
-			<p>商家週邊熱烈販售中！紙箱，膠帶，店卡與貼紙試賣中。</p>
+			<div style="margin-left: -20px;" >
+				<img src="img/kanban.svg" width="39" alt="" />
+				<a class="go-to-shop" href="http://ruten.com.tw">馬上<br />選購</a>
+				<h3>手打官方道具店</h3>
+				<p>提升商品好感度！多款包材、店卡、貼紙熱烈試賣中。</p>				
+			</div>
 		</div>
 	</section>
 	

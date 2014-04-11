@@ -1,14 +1,29 @@
 @charset "UTF-8";
-
-/* @media (min-width:1025px) { */
-	@import "animate";
-/* } */
+@import "animate";
 
 $red: #F75E50;
 $content-width: 900px;
 $video-width: 898 / 505 * 525; /* based on width 505px */
 $video-offset: 20px; /* to avoid blurred white border */
+$video-w: 505px / 9 * 16;
 
+.play-now {
+	display: block;
+	transition-property: all;
+	transition-duration: 0.3s;
+	&:hover {
+		opacity: 1;
+		cursor: pointer;
+	}
+	position: absolute;
+	top: 259px;
+	left: 242px;
+	width: 110px;
+	height: 110px;
+	opacity: 0.5;
+	margin: 0 auto;
+	z-index: 1;
+}
 
 @mixin col($width, $gutter) {
 	width: $width - 1;
@@ -79,36 +94,21 @@ body {
 #hero {
 	margin-top: 80px;
 	text-align: center;	
-	.video-container {
+	.video-wrapper {
 		position: relative;
 		width: 594px;
 		height: 505px;
-		overflow: hidden;
 		margin: 0 auto;
-		.play-now {
-			transition-property: all;
-			transition-duration: 0.3s;
-			&:hover {
-				opacity: 1;
-				cursor: pointer;
-			}
-			position: absolute;
-			top: 259px;
-			left: 242px;
-			width: 110px;
-			height: 110px;
-			opacity: 0.5;
-			margin: 0 auto;
-			z-index: 1;
-		}
+		overflow: hidden;
 		video {
-			cursor: pointer;
 			position: relative;
-			left: - ( $video-width - 594px ) /2;
-			height: 505px + $video-offset;
+			left: ( 594 - $video-w  * 1.1 ) / 2 - 1;
+			width: $video-w * 1.1;
+			height: 505px * 1.1;
 		  -webkit-mask: url("../img/video-mask.svg") center top no-repeat;
 			-webkit-mask-size: 594px;
-		  -webkit-filter: blur(5px) saturate(0.8);
+			transition-property: none;
+		  -webkit-filter: blur(0) saturate(0.8);
 		  transition-property: all;
 		  transition-duration: 0.7s;
 		  &:hover {
@@ -116,7 +116,6 @@ body {
 		  }
 		}
 	}
-	
 	.slogan {
 		width: 519px;
 		height: 53px;
@@ -184,6 +183,13 @@ body {
 	100% {top: 2px;}
 }
 
+@-webkit-keyframes slideshow
+{
+	0% { opacity: 0;}
+	90% { opacity: 1;}
+	100% {opacity: 1;}
+}
+
 @-webkit-keyframes shaking-hoz
 {
 	0% { right: -3px;}
@@ -193,10 +199,11 @@ body {
 #channel {
 	margin: 100px auto;
 	.left {
-		@include col(43%, 30px);
+		text-align: center;
+		@include col(50%, 30px);
 	}
 	.right {
-		@include col(57%, 30px);
+		@include col(50%, 30px);
 	}
 	.devices {
 		margin-top: 40px;
@@ -268,7 +275,7 @@ body {
 			color: #7F6F59;
 			left: 0px;
 			top: 160px;
-				img {
+			img {
 				margin-left: 4px;
 				top: 2px;
 				-webkit-animation-name: shaking-hoz;
@@ -279,7 +286,7 @@ body {
 				-webkit-animation-fill-mode: forwards;
 				width: 8px;
 				position: relative;
-				}
+			}
 		}
 		width: 700px;
 		height: 322px;
@@ -288,10 +295,10 @@ body {
 		background: url("../img/iphone.svg") center top no-repeat;
 		background-size: 260px;
 		overflow: hidden;
-		video {
+		img.video-placeholder /* use video later*/ {
 			border-radius: 3px;
 			border: 1px solid rgba(0,0,0,0.2);
-			margin-top: 77px;
+			margin-top: 78px;
 			width: 224px;
 		}
 	}
@@ -303,6 +310,64 @@ body {
 		margin: 25px auto;
 		text-align: center;
 	}
+}
+
+#post-to-fb {
+	.share-screen {
+		width: 320px;
+		display: block;
+	}
+	margin: 160px auto 180px auto;
+	.left {
+		margin-top: 60px;
+		h2 {
+			text-align: right;
+		}
+		p {
+			width: 85%;
+			display: inline-block;
+		}
+		text-align: right;
+		@include col(50%, 30px);
+	}
+	.right {
+		margin-top: 16px;
+		.check-mark {
+			float: left;
+			display: block;
+			margin-left: 256px;
+			margin-top: 4px;
+			margin-bottom: 16px;
+			clear: both;
+		}
+		background: url("../img/share.png") left no-repeat;
+		background-size: 309px;
+		height: 208px;
+		position: relative;
+		
+		text-align: left;
+		@include col(50%, 20px);
+		.fb1, .fb2 {
+			display: none;
+			position: absolute;
+			top: 0;
+			left: 20px;
+			border-radius: 6px;
+			-webkit-animation-duration: 3s;
+			-webkit-animation-direction: alternate;
+			-webkit-animation-iteration-count: infinite;
+			-webkit-animation-timing-function: ease-in-out;
+		}
+		.fb1 {
+			-webkit-animation-name: slideshow;
+			-webkit-animation-delay: 0s;
+			z-index: 1;
+		}
+	}
+	h2 {
+		text-align: left;
+	}
+	
 }
 
 #chats {
@@ -322,6 +387,18 @@ body {
 }
 
 #detail {
+	a.go-to-shop {
+		background: #D8E6EA;
+		color: #83B2BE;
+		font-weight: bold;
+		padding: 1.2em;
+		margin-left: 0.3em;
+		border-radius: 5em;
+		line-height: 17px;
+		display: inline-block;
+		float: right;
+		margin-right: -2.5em;
+	}
 	h2 {
 		margin-bottom: 60px;
 	}
@@ -356,7 +433,7 @@ body {
 	.rates {
 		p, h3 {
 			margin-left: 0;
-			margin-bottom: 30px;
+			margin-bottom: 20px;
 		}
 		.blue {
 			color: #7ED3E4;
@@ -373,6 +450,10 @@ body {
 			margin-bottom: 30px;
 		}
 	}
+}
+.underline {
+	border-bottom: 2px dotted lighten(#7F6F5A, 40%);
+	padding-bottom: 4px;
 }
 
 #apply {
@@ -391,10 +472,6 @@ body {
 	}
 	p {
 		margin-bottom: 50px;
-	}
-	.underline {
-		border-bottom: 2px dotted lighten(#7F6F5A, 40%);
-		padding-bottom: 4px;
 	}
 	.social-links {
 		a {
