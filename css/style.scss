@@ -63,11 +63,15 @@ hr {
 	border-radius: 5px;
 }
 
-p {
+p, ul, ol {
 	font-size: 14px;
 	color: #7F6F59;
 	line-height: 23px;
 	margin-bottom: 1.3em;
+}
+
+ul {
+	list-style: square inside;
 }
 
 
@@ -87,7 +91,7 @@ h2 {
 
 
 body {
-	font-family: "Lantinghei TC", sans-serif;
+	font-family: Helvetica,"Lantinghei TC", sans-serif;
 	background: #FAF8F5;
 	font-family: sans-serif;
 }
@@ -159,11 +163,11 @@ body {
 			height: 98px;
 			width: 98px;
 			color: white;
+			font-weight: normal;
 			border-radius: 98px;
 			letter-spacing: 2px;
 			font-size: 20px;
 			line-height: 25px;
-			font-weight: bold;
 			padding-top: 20px;
 		}
 		span {
@@ -210,7 +214,7 @@ body {
 }
 
 #channel {
-	margin: 100px auto;
+	margin: 140px auto;
 	a.button {
 		color: white;
 		line-height: 34px;
@@ -223,7 +227,7 @@ body {
 		margin-bottom: 10px;
 	}
 	.left {
-		margin-top: 90px;
+		margin-top: 70px;
 		text-align: center;
 		@include col(50%, 30px);
 	}
@@ -233,6 +237,7 @@ body {
 	.demo {
 	  -webkit-perspective: 800px;
 	  height: 320px;
+	  margin-top: 30px;
 	  position: relative;
 		img {
 			border-radius: 4px;
@@ -272,7 +277,6 @@ body {
 	}
 	.caption {
 		text-align: center;
-		margin-top: 15px;
 		span {
 			color: #7F6F59;
 			font-size: 12px;
@@ -285,7 +289,7 @@ body {
 		margin-left: 80px;
 		width: 350px;
 		height: 545px;
-		background: url("../img/iphone.svg") center top no-repeat;
+		background: url("../img/iphone-light.svg") center top no-repeat;
 		background-size: 260px;
 		text-align: center;
 		position: relative;
@@ -344,6 +348,21 @@ body {
 			margin-top: 20px;
 			font-size: 16px;
 		}
+	}
+	h3 .point {
+		vertical-align: text-bottom;
+		margin-bottom: 2px;
+		display: inline-block;
+	}
+	.point {
+		font-size: 9px;
+		border-radius: 3px;
+		margin-left: 4px;
+		font-weight: bold;
+		background: $red;
+		color: white;
+		padding: 1px 3px;
+		font-family: Helvetica;
 	}
 }
 
@@ -414,7 +433,7 @@ body {
 	.right {
 		margin-top: 80px;
 		text-align: left;
-		@include col(33%, 20px);
+		@include col(40%, 20px);
 	}
 	h2 {
 		text-align: left;
@@ -445,6 +464,15 @@ body {
 	.right {
 		@include col(40%, 30px);
 	}
+	ul li span.number {
+		font-family: Helvetica;
+		// border-radius: 3px;
+		// background: #7F6F59;
+		// color: white;
+		font-weight: bold;
+		// padding: 1px 4px;
+		// margin: 0 2px;
+	}
 	div > img {
 		width: 65px;
 		float: left;
@@ -466,7 +494,7 @@ body {
 	}
 	
 	.rates {
-		p, h3 {
+		p, h3, ul {
 			margin-left: 0;
 			margin-bottom: 20px;
 		}
@@ -486,9 +514,12 @@ body {
 		}
 	}
 }
+
 .underline {
-	border-bottom: 2px dotted lighten(#7F6F5A, 40%);
-	padding-bottom: 4px;
+	// padding-bottom: 1px;
+	font-weight: bold;
+	// color: $red;
+	// border-bottom: 1px dotted $red;
 }
 
 #apply {

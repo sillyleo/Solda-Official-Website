@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>bad</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Product-Detail--Portrait" sketch:type="MSArtboardGroup" transform="translate(-1129.000000, -2562.000000)">
+            <g id="Group-+-1-+-Bad" sketch:type="MSLayerGroup" transform="translate(1129.000000, 2562.000000)">
+                <g id="bad" sketch:type="MSShapeGroup">
+                    <circle id="Oval-19" fill="#FFD6D6" cx="45" cy="45" r="45"></circle>
+                    <path d="M40.1785714,36.4120606 L20.6532697,42.3815444 C19.1704935,42.8348746 17.5964934,41.9993605 17.1423522,40.5139315 C16.6891351,39.0315251 17.5237939,37.456305 19.0086788,37.0023301 L30.5589675,33.4710525 L18.2051074,29.6940984 C16.7223312,29.2407683 15.8846395,27.6679261 16.3387808,26.1824971 C16.7919979,24.7000906 18.3648133,23.8609093 19.8496983,24.3148842 L40.1785714,30.5300444 L60.5074446,24.3148842 C61.9902208,23.861554 63.5642209,24.6970681 64.0183621,26.1824971 C64.4715792,27.6649035 63.6369204,29.2401236 62.1520354,29.6940984 L49.7981754,33.4710525 L61.348464,37.0023301 C62.8312402,37.4556603 63.6689319,39.0285025 63.2147907,40.5139315 C62.7615735,41.996338 61.1887581,42.8355193 59.7038732,42.3815444 L40.1785714,36.4120606 Z" id="Rectangle-9" opacity="0.4" fill="#C01313"></path>
+                    <path d="M43.0112622,54.2612622 L31.7612622,65.5112622 C29.989486,67.2830384 31.2443301,70.3125 33.75,70.3125 L56.25,70.3125 C58.7556699,70.3125 60.010514,67.2830384 58.2387378,65.5112622 L46.9887378,54.2612622 C45.8903883,53.1629126 44.1096117,53.1629126 43.0112622,54.2612622 Z" id="Triangle-1" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
