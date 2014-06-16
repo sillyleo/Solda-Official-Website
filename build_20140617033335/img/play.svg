@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="220px" height="220px" viewBox="0 0 220 220" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>play</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Introduction" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Export" sketch:type="MSArtboardGroup" transform="translate(-1181.000000, -784.000000)" fill="#FFFFFF">
+            <path d="M1181,894 C1181,954.751325 1230.24867,1004 1291,1004 C1351.75133,1004 1401,954.751325 1401,894 C1401,833.248675 1351.75133,784 1291,784 C1230.24867,784 1181,833.248675 1181,894 Z M1265.43324,849.09125 C1263.38068,850.425 1261.93182,852.6075 1261.81108,855.0325 C1261.69034,855.76 1260,875.4025 1260,896.5 C1260,917.5975 1261.69034,937.24 1261.81108,938.08875 C1261.93182,940.51375 1263.38068,942.69625 1265.43324,943.90875 C1266.64062,944.63625 1268.08949,945 1269.41761,945 C1270.50426,945 1271.47017,944.7575 1272.43608,944.39375 C1311.31392,928.51 1341.13636,903.29 1342.34375,902.32 C1344.03409,900.865 1345,898.6825 1345,896.5 C1345,894.3175 1344.03409,892.135 1342.34375,890.80125 C1341.13636,889.71 1311.31392,864.49 1272.43608,848.60625 C1271.47017,848.2425 1270.38352,848 1269.41761,848 C1267.96875,848 1266.64062,848.36375 1265.43324,849.09125 Z" id="Path" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
