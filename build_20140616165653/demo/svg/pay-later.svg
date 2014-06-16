@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px"
+	 viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<title>pay-later</title>
+<description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+<g id="Items" sketch:type="MSPage">
+	<g id="Artboard-1" transform="translate(-748.000000, -100.000000)" sketch:type="MSArtboardGroup">
+		<path id="pay-later" sketch:type="MSShapeGroup" fill="#F75E50" d="M779.683,132.5c6.738,0,12.25-5.461,12.25-12.25
+			c0-6.738-5.513-12.25-12.25-12.25c-6.789,0-12.25,5.513-12.25,12.25C767.433,127.038,772.895,132.5,779.683,132.5z
+			 M804.796,137.502c-1.327-1.225-3.42-1.123-4.645,0.204c-0.204,0.204-1.021,1.021-1.225,1.276
+			c0.102-0.868-0.102-2.144-0.715-2.858c-1.174-1.327-3.267-1.48-4.594-0.306c-0.408,0.357-0.817,0.715-1.276,1.072
+			c0.051-0.817-0.204-1.633-0.766-2.297c-1.123-1.378-3.165-1.531-4.594-0.408c-1.48,1.123-3.981,3.216-3.981,3.216
+			c0.766,0.97,1.276,2.552,1.123,3.93c-0.306,2.45-2.807,4.236-5.257,4.236h-0.612l-12.403-1.633h11.382
+			c1.786,0,3.267-1.48,3.267-3.267s-1.48-3.267-3.267-3.267H756v12.25c3.675,1.735,15.568,7.35,25.062,7.35
+			c10.055,0,22.561-13.373,23.939-14.904C806.225,140.769,806.123,138.676,804.796,137.502z"/>
+	</g>
+</g>
+</svg>

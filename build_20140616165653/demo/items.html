@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html class='no-js' lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title>Items</title>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <link href='css/style.css' rel='stylesheet'>
+		<link rel="stylesheet" href="css/jquery.remodal.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/effects.js"></script>
+  </head>
+	<body>
+	  <div id="three-column-page" class="remodal-bg">
+
+		<div class="remodal" data-remodal-id="modal">
+	    <h1>地址</h1>
+      <h2>台北市中正區忠孝東路二段 39 巷 2 弄 14 號 3F<br/>10016</h2>
+	    <br>
+	    <a class="remodal-confirm" href="#">OK</a>
+		</div>
+
+    <!-- state selector -->
+    <div id="state1"></div>
+    <div id="state2"></div>
+    <div id="state3"></div>
+    
+    <ul class="menu-content">
+  	  <a class="logout" href="#">Logout</a>
+    	<li>
+    	  <a href="messages.html">
+      	  <i data-icon="d"></i>
+      	  <span>Messages</span>
+    	  </a>
+    	 </li>
+    	<li>
+    	  <a href="profile.html">
+      	  <i data-icon="n"></i>
+      	  <span>Profile</span>
+    	  </a>
+    	 </li>
+    	<li>
+    	  <a href="items.html">
+      	  <i data-icon="m"></i>
+      	  <span>Items</span>
+    	  </a>
+    	 </li>
+    </ul>
+
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#state1"><span>Items</span></a>
+        <a href="#state2"><span>Selling</a>
+        <a href="#state3"><span>Info</span></a>
+        <span class="dropdown">
+          <i data-icon="l"></i>
+        </span>
+      </div>
+    </nav>
+
+    <div id="browser">
+      <div id="column-container">
+        <section id="column1">
+          <ul>
+          	<li class="current">
+          	  <a href="#state2">
+            	  <i data-icon="h"></i>
+            	  <span>Selling</span>
+          	  </a>
+          	 </li>
+          	<li>
+          	  <a href="#state2">
+            	  <i data-icon="f"></i>
+            	  <span>Orders</span>
+          	  </a>
+          	 </li>
+          	<li>
+          	  <a href="#state2">
+            	  <i data-icon="g"></i>
+            	  <span>Purchased</span>
+          	  </a>
+          	 </li>
+          </ul>
+        </section>
+
+				<section id="column2">
+  <ul class="orders">
+    <li class="section-header">
+      <span>3</span> Waiting to be shipped 
+    </li>
+  	<li class="current">
+  	  <a href="#state3">
+    	  <img src="img/1.jpg" alt="" />
+  	    <div class="meta">
+  	      <small class="time-stamp">今天</small>
+  	      <small class="people">To: <strong>Chris Puckett</strong></small>
+  	    </div>
+    	  <span class="product-name"><strong class="quantity">多種商品</strong>Molestiae est suscipit aperiam deleniti rerum nihil. Sit et voluptatem beatae</span>
+    	  <small class="price"><strong>$39</strong></small>
+  	  </a>
+	 </li>
+    
+  	<li>
+  	  <a href="#state3">
+    	  <img src="img/1.jpg" alt="" />
+  	    <div class="meta">
+  	      <small class="time-stamp">昨天</small>
+  	      <small class="people">To: <strong>Alexandra McNamara</strong></small>
+  	    </div>
+    	  <span class="product-name"><strong class="quantity">× 3</strong>Debitis autem velit corrupti aliquam sit consequatur sit. Sit et perferendis eos est ab</span>
+    	  <small class="price"><strong>$39</strong> + $14</small>
+  	  </a>
+	 </li>
+	 
+  	<li>
+  	  <a href="#state3">
+    	  <img src="img/1.jpg" alt="" />
+  	    <div class="meta">
+  	      <small class="time-stamp">昨天</small>
+  	      <small class="people">To: <strong>Jerald Rich</strong></small>
+  	    </div>
+    	  <span class="product-name"><strong class="quantity">× 3</strong>Facere tempora nobis ullam voluptatem laudantium laboriosam qui et. Numquam voluptatem doloremque non vel perspiciatis vel nisi repellat eius soluta illo consectetur odit</span>
+    	  <small class="price"><strong>$39</strong> + $14</small>
+  	  </a>
+	 </li>
+	 
+  	<li>
+  	  <a href="#state3">
+    	  <img src="img/1.jpg" alt="" />
+  	    <div class="meta">
+  	      <small class="time-stamp">昨天</small>
+  	      <small class="people">To: <strong>Alfredo Olsen</strong></small>
+  	    </div>
+    	  <span class="product-name"><strong class="quantity">× 3</strong>Quibusdam necessitatibus corrupti maxime. Non molestiae at corrupti possimus mollitia</span>
+    	  <small class="price"><strong>$39</strong> + $14</small>
+  	  </a>
+	 </li>
+	 
+    <li class="section-header">
+      <span>8</span> Completed 
+    </li>
+    
+  	<li>
+  	  <a href="#state3">
+    	  <img src="img/3.jpg" alt="" />
+  	    <div class="meta">
+  	      <small class="time-stamp">2 天前</small>
+  	      <small class="people">To: <strong>Shawn Farrell</strong></small>
+  	    </div>
+    	  <span class="product-name"><strong class="quantity">× 1</strong>Ea autem est perspiciatis qui quaerat provident et numquam magni consequuntur quasi. Reprehenderit fugiat eos esse occaecati quas qui facere officiis sint aliquam maxime quia quibusdam beatae</span>
+    	  <small class="price"><strong>$39</strong> + $14</small>
+  	  </a>
+	 </li>
+	 
+  	<li>
+  	  <a href="#state3">
+    	  <img src="img/3.jpg" alt="" />
+  	    <div class="meta">
+  	      <small class="time-stamp">2 天前</small>
+  	      <small class="people">To: <strong>Ana Conner</strong></small>
+  	    </div>
+    	  <span class="product-name"><strong class="quantity">× 1</strong>Vero praesentium molestias et itaque facere voluptatem dignissimos consequatur ab molestiae. Ut consequuntur quisquam temporibus officia consequatur voluptatem aliquam</span>
+    	  <small class="price"><strong>$39</strong> + $14</small>
+  	  </a>
+	 </li>
+	 
+  	<li>
+  	  <a href="#state3">
+    	  <img src="img/3.jpg" alt="" />
+  	    <div class="meta">
+  	      <small class="time-stamp">2 天前</small>
+  	      <small class="people">To: <strong>Kailey McNamara</strong></small>
+  	    </div>
+    	  <span class="product-name"><strong class="quantity">× 1</strong>Et nam voluptatum accusamus illum ea quos consectetur qui aut aliquam quis corrupti. Alias tempora eveniet quia eos libero laudantium</span>
+    	  <small class="price"><strong>$39</strong> + $14</small>
+  	  </a>
+	 </li>
+	 
+  	<li>
+  	  <a href="#state3">
+    	  <img src="img/3.jpg" alt="" />
+  	    <div class="meta">
+  	      <small class="time-stamp">2 天前</small>
+  	      <small class="people">To: <strong>Giselle Connolly</strong></small>
+  	    </div>
+    	  <span class="product-name"><strong class="quantity">× 1</strong>Quibusdam eveniet dolor doloribus neque excepturi. Eius mollitia error unde est</span>
+    	  <small class="price"><strong>$39</strong> + $14</small>
+  	  </a>
+	 </li>
+	 
+  	<li>
+  	  <a href="#state3">
+    	  <img src="img/3.jpg" alt="" />
+  	    <div class="meta">
+  	      <small class="time-stamp">2 天前</small>
+  	      <small class="people">To: <strong>Byron Cross</strong></small>
+  	    </div>
+    	  <span class="product-name"><strong class="quantity">× 1</strong>Repudiandae facilis totam nemo non quia nisi vitae alias illum nostrum laboriosam. Et modi optio quos quibusdam quam maiores voluptatem</span>
+    	  <small class="price"><strong>$39</strong> + $14</small>
+  	  </a>
+	 </li>
+	 
+  	<li>
+  	  <a href="#state3">
+    	  <img src="img/3.jpg" alt="" />
+  	    <div class="meta">
+  	      <small class="time-stamp">2 天前</small>
+  	      <small class="people">To: <strong>Tammie Hall</strong></small>
+  	    </div>
+    	  <span class="product-name"><strong class="quantity">× 1</strong>Debitis quaerat eum est alias commodi veniam esse odit est accusantium. Voluptate veritatis voluptatem repellendus</span>
+    	  <small class="price"><strong>$39</strong> + $14</small>
+  	  </a>
+	 </li>
+	 
+  	<li>
+  	  <a href="#state3">
+    	  <img src="img/3.jpg" alt="" />
+  	    <div class="meta">
+  	      <small class="time-stamp">2 天前</small>
+  	      <small class="people">To: <strong>Kailey Starr</strong></small>
+  	    </div>
+    	  <span class="product-name"><strong class="quantity">× 1</strong>Et vero qui laboriosam placeat magnam neque ut velit incidunt et quaerat consequatur autem. Molestiae mollitia dicta expedita quisquam inventore illum consequuntur soluta aut reprehenderit magni minima adipisci</span>
+    	  <small class="price"><strong>$39</strong> + $14</small>
+  	  </a>
+	 </li>
+	 
+  	<li>
+  	  <a href="#state3">
+    	  <img src="img/3.jpg" alt="" />
+  	    <div class="meta">
+  	      <small class="time-stamp">2 天前</small>
+  	      <small class="people">To: <strong>Shawn Carlton</strong></small>
+  	    </div>
+    	  <span class="product-name"><strong class="quantity">× 1</strong>Dolor officia ad sunt. Dolores voluptas dolorem illo fuga et suscipit vel molestias</span>
+    	  <small class="price"><strong>$39</strong> + $14</small>
+  	  </a>
+	 </li>
+	 
+  </ul>
+</section>
+
+
+        <section id="column3">
+          <div class="invoice">
+          
+						<h2 class="invoice-header"><span class="invoice-number">#59371</span><span class="time-stamp">2013/2/23 5:10 PM</span></h2>
+
+
+            <ul>
+            	<li>
+            	  <b>
+              	  <i data-icon="i"></i>
+              	  <span class="right-label">$15</span>
+              	  <span>運費</span>
+            	  </b>
+            	 </li>
+            	<li>
+            	  <b>
+              	  <i data-icon="k"></i>
+              	  <span class="right-label">$335</span>
+              	  <span>總計</span>
+            	  </b>
+            	 </li>
+            	<li class="demo1" style="border: none;"> <!-- useless class just for demoing invoice status -->
+            	  <b>
+              	  <i data-icon="j"></i>
+              	  <a href="#state3" class="invoice-action" rel="mark-shipped">標記出貨</a>
+              	  <span>狀態</span>
+            	  </b>
+            	 </li>
+            	<li class="demo2" style="border: none;"> <!-- useless class just for demoing invoice status -->
+            	  <b>
+              	  <i data-icon="j"></i>
+              	  <span class="right-label" rel="mark-shipped">已出貨，等待評價</span>
+              	  <span>狀態</span>
+            	  </b>
+            	 </li>
+            	<li class="demo3" style="border: none;"> <!-- useless class just for demoing invoice status -->
+            	  <b>
+              	  <i data-icon="j"></i>
+              	  <span class="right-label" rel="mark-shipped">已評價</span>
+              	  <span>狀態</span>
+            	  </b>
+            	 </li>
+            </ul>
+
+            <h2>處理記錄</h2>
+
+            <h4 ng-if="current_invoice.payment_state == 'paid'" class="ng-scope ng-binding">Paid at 2014/5/29 下午 04:29</h4>
+            <h4 ng-if="current_invoice.payment_state == 'paid'" class="ng-scope ng-binding">Shipped at 2014/5/29 下午 04:29</h4>
+            <h4 ng-if="current_invoice.payment_state == 'paid'" class="ng-scope ng-binding">Reviewed at 2014/5/29 下午 04:29</h4>
+
+						<div class="demo3">
+							<h2>評價</h2>
+							<p><img class="rating-image" src="img/good.svg">「這個手機套比想像中質感還好！」<small class="description">— 林長逸</small></p>
+						</div>
+            <h2>寄送資訊</h2>
+            <h3>張育豪</h3>
+            <p class="address">台北市中正區忠孝東路二段 39 巷 2 弄 14 號 3F<br/>10016</p>
+            <p class="description"><a href="tel:02-8893-8282">02-8893-8282</a></p>
+            <h2>運送方式</h2>
+						<div class="shipping-options-wrapper">
+	          	<div class="option-content">
+		            <div class="convenient-store no-border"><div data-icon="s"></div><strong>超商取貨</strong><br/>NT$ 180</div>
+	          	</div>							
+						</div>
+						
+            <h2>買家</h2>
+            <a href="messages.html" class="direct-contact"><i data-icon="d"></i></a>
+            <h3><a href="profile.html">林長逸</a></h3>
+            <p class="description"><a href="tel:+886-921-757-696">+886-921-757-696</a></p>
+            <h2>備註</h2>
+            <p>麵包不要考太焦，謝謝。</p>
+            <h2>消費明細</h2>
+            
+						<ul class="orders">
+  	<li>
+  	  <a href="#state3">
+    	  <img src="img/1.jpg" alt="" />
+  	    <div class="meta">
+  	    </div>
+    	  <span class="product-name"><strong class="quantity">× 1</strong>Est beatae laborum et officia iste aut sunt et. Error harum ut in id vel illo quod ipsum ad aut similique autem eum</span>
+    	  <small class="price"><strong>$39</strong></small>
+  	  </a>
+	 </li>
+  	<li>
+  	  <a href="#state3">
+    	  <img src="img/3.jpg" alt="" />
+  	    <div class="meta">
+  	    </div>
+    	  <span class="product-name"><strong class="quantity">× 2</strong>Velit aperiam aut fugit blanditiis nesciunt rerum enim sint quasi reiciendis consequatur facere aut hic. Provident tenetur in eum repudiandae maxime perspiciatis culpa corrupti</span>
+    	  <small class="price"><strong>$39</strong></small>
+  	  </a>
+	 </li>
+  	<li>
+  	  <a href="#state3">
+    	  <img src="img/5.jpg" alt="" />
+  	    <div class="meta">
+  	    </div>
+    	  <span class="product-name"><strong class="quantity">× 1</strong>Iure quo eos cum in perferendis nemo recusandae possimus sit voluptatibus. Eos delectus ut vitae dolores facilis aut</span>
+    	  <small class="price"><strong>$39</strong></small>
+  	  </a>
+	 </li>
+
+</ul>
+
+            
+            <h2>交易問題處理</h2>
+						<p>處理退換貨問題超過 21 工作天？<a href="#" >暫緩撥款</a>。</p>
+						<p>如果出現無法排除的問題，您可以<a href="#">提出交易申訴</a></p>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+  </div>
+  <script src="js/jquery.remodal.min.js"></script>
+  </body>
+</html>

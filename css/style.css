@@ -3681,20 +3681,21 @@ body {
   font-weight: bold;
   background: #f75e50;
   color: white;
+  vertical-align: top;
   padding: 1px 3px;
   font-family: Helvetica;
 }
 
-/* line 369, style.scss */
+/* line 370, style.scss */
 #post-to-fb {
   margin: 160px auto 180px auto;
 }
-/* line 370, style.scss */
+/* line 371, style.scss */
 #post-to-fb .share-screen {
   width: 320px;
   display: block;
 }
-/* line 375, style.scss */
+/* line 376, style.scss */
 #post-to-fb .left {
   margin-top: 50px;
   text-align: right;
@@ -3704,16 +3705,16 @@ body {
   box-sizing: border-box;
   vertical-align: top;
 }
-/* line 377, style.scss */
+/* line 378, style.scss */
 #post-to-fb .left h2 {
   text-align: right;
 }
-/* line 380, style.scss */
+/* line 381, style.scss */
 #post-to-fb .left p {
   width: 85%;
   display: inline-block;
 }
-/* line 387, style.scss */
+/* line 388, style.scss */
 #post-to-fb .right {
   margin-top: 16px;
   background: url("../img/share.png") left no-repeat;
@@ -3727,7 +3728,7 @@ body {
   box-sizing: border-box;
   vertical-align: top;
 }
-/* line 389, style.scss */
+/* line 390, style.scss */
 #post-to-fb .right .check-mark {
   float: left;
   display: block;
@@ -3736,7 +3737,7 @@ body {
   margin-bottom: 16px;
   clear: both;
 }
-/* line 404, style.scss */
+/* line 405, style.scss */
 #post-to-fb .right .fb1, #post-to-fb .right .fb2 {
   display: none;
   position: absolute;
@@ -3748,22 +3749,22 @@ body {
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: ease-in-out;
 }
-/* line 415, style.scss */
+/* line 416, style.scss */
 #post-to-fb .right .fb1 {
   -webkit-animation-name: slideshow;
   -webkit-animation-delay: 0s;
   z-index: 1;
 }
-/* line 421, style.scss */
+/* line 422, style.scss */
 #post-to-fb h2 {
   text-align: left;
 }
 
-/* line 427, style.scss */
+/* line 428, style.scss */
 #chats {
   margin: 180px auto;
 }
-/* line 429, style.scss */
+/* line 430, style.scss */
 #chats .left {
   text-align: right;
   width: 54%;
@@ -3772,7 +3773,7 @@ body {
   box-sizing: border-box;
   vertical-align: top;
 }
-/* line 433, style.scss */
+/* line 434, style.scss */
 #chats .right {
   margin-top: 80px;
   text-align: left;
@@ -3782,16 +3783,16 @@ body {
   box-sizing: border-box;
   vertical-align: top;
 }
-/* line 438, style.scss */
+/* line 439, style.scss */
 #chats h2 {
   text-align: left;
 }
 
-/* line 443, style.scss */
+/* line 444, style.scss */
 #detail {
   text-align: left;
 }
-/* line 444, style.scss */
+/* line 445, style.scss */
 #detail a.go-to-shop {
   background: #D8E6EA;
   color: #83B2BE;
@@ -3804,11 +3805,11 @@ body {
   float: right;
   margin-right: -2.5em;
 }
-/* line 456, style.scss */
+/* line 457, style.scss */
 #detail h2 {
   margin-bottom: 60px;
 }
-/* line 460, style.scss */
+/* line 461, style.scss */
 #detail .left {
   width: 44%;
   display: inline-block;
@@ -3817,7 +3818,7 @@ body {
   vertical-align: top;
   margin-left: 80px;
 }
-/* line 464, style.scss */
+/* line 465, style.scss */
 #detail .right {
   width: 39%;
   display: inline-block;
@@ -3825,85 +3826,85 @@ body {
   box-sizing: border-box;
   vertical-align: top;
 }
-/* line 467, style.scss */
+/* line 468, style.scss */
 #detail ul li span.number {
   font-family: Helvetica;
   font-weight: bold;
 }
-/* line 476, style.scss */
+/* line 477, style.scss */
 #detail div > img {
   width: 65px;
   float: left;
   display: block;
 }
-/* line 481, style.scss */
+/* line 482, style.scss */
 #detail h3 {
   font-size: 17px;
   margin-bottom: 10px;
 }
-/* line 485, style.scss */
+/* line 486, style.scss */
 #detail div > p {
   margin-bottom: 36px;
   margin-left: 90px;
 }
-/* line 489, style.scss */
+/* line 490, style.scss */
 #detail .left p {
   height: 50px;
 }
-/* line 492, style.scss */
+/* line 493, style.scss */
 #detail div > h3 {
   margin-left: 90px;
 }
-/* line 497, style.scss */
+/* line 498, style.scss */
 #detail .rates p, #detail .rates h3, #detail .rates ul {
   margin-left: 0;
   margin-bottom: 20px;
 }
-/* line 501, style.scss */
+/* line 502, style.scss */
 #detail .rates .blue {
   color: #7ED3E4;
   margin-top: 0;
 }
-/* line 505, style.scss */
+/* line 506, style.scss */
 #detail .rates img.rates {
   margin-top: 5px;
   margin-bottom: 10px;
 }
-/* line 511, style.scss */
+/* line 512, style.scss */
 #detail .right hr {
   width: 100%;
   margin-bottom: 30px;
 }
 
-/* line 518, style.scss */
+/* line 519, style.scss */
 .underline {
   font-weight: bold;
 }
 
-/* line 525, style.scss */
+/* line 526, style.scss */
 #apply {
   margin-top: 150px;
 }
-/* line 526, style.scss */
+/* line 527, style.scss */
 #apply .center {
   text-align: center;
   width: 900px;
   margin: 0 auto 100px auto;
 }
-/* line 531, style.scss */
+/* line 532, style.scss */
 #apply h3 {
   margin-bottom: 20px;
 }
-/* line 535, style.scss */
+/* line 536, style.scss */
 #apply hr {
   width: 50%;
   margin: 10px auto 40px auto;
 }
-/* line 539, style.scss */
+/* line 540, style.scss */
 #apply p {
   margin-bottom: 50px;
 }
-/* line 543, style.scss */
+/* line 544, style.scss */
 #apply .social-links a {
   color: #675a48;
   padding: 16px 20px 12px 20px;
@@ -3916,33 +3917,33 @@ body {
   display: inline-block;
   background: rgba(217, 200, 164, 0.6);
 }
-/* line 544, style.scss */
+/* line 545, style.scss */
 #apply .social-links a.inactive {
   opacity: 0.8;
   cursor: not-allowed;
 }
-/* line 547, style.scss */
+/* line 548, style.scss */
 #apply .social-links a.inactive:hover {
   background: rgba(217, 200, 164, 0.6);
 }
-/* line 552, style.scss */
+/* line 553, style.scss */
 #apply .social-links a span {
   line-height: 16px;
   font-size: 13px;
   color: white;
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 }
-/* line 567, style.scss */
+/* line 568, style.scss */
 #apply .social-links a:hover {
   background: rgba(217, 200, 164, 0.9);
 }
-/* line 572, style.scss */
+/* line 573, style.scss */
 #apply .application {
   width: 108px;
   margin: 40px auto 40px auto;
   position: relative;
 }
-/* line 576, style.scss */
+/* line 577, style.scss */
 #apply .application a {
   display: inline-block;
   background: #f75e50;

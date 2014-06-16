@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="70px" height="70px"
+	 viewBox="0 0 70 70" enable-background="new 0 0 70 70" xml:space="preserve">
+<title>status</title>
+<description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+<g id="Message---Landscape" transform="translate(-786.000000, -514.000000)" sketch:type="MSArtboardGroup">
+	<g>
+		<path fill="#F75E50" d="M837.949,543.848c-0.524-1.573-2.284-2.848-3.945-2.848h-26.008c-1.655,0-3.42,1.27-3.945,2.848L802,550
+			h38L837.949,543.848z M806.171,546.974l0.726-2.178c0.117-0.351,0.734-0.796,1.099-0.796h26.008c0.367,0,0.982,0.445,1.099,0.796
+			l0.737,2.209L806.171,546.974z"/>
+		<path fill="#F75E50" d="M838.998,553h-35.996c-2.21,0-4.002,1.787-4.002,4.005v17.989c0,2.212,1.793,4.005,4.002,4.005h35.996
+			c2.21,0,4.002-1.787,4.002-4.005v-17.989C843,554.793,841.207,553,838.998,553z M840,574.995c0,0.559-0.446,1.005-1.002,1.005
+			h-35.996c-0.552,0-1.002-0.45-1.002-1.005v-17.989c0-0.559,0.446-1.005,1.002-1.005h35.996c0.552,0,1.002,0.45,1.002,1.005
+			V574.995z"/>
+		<rect x="814" y="568" fill="#F75E50" width="14" height="2"/>
+		<rect x="814" y="560" fill="#F75E50" width="14" height="2"/>
+		<rect x="814" y="564" fill="#F75E50" width="14" height="2"/>
+	</g>
+</g>
+</svg>
