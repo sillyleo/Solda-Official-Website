@@ -168,6 +168,14 @@ body {
 		width: 98px;
 		margin: 70px auto 0 auto;
 		position: relative;
+		div.fbla {
+			position: absolute;
+			display: block;
+			left: -120px;
+			width: 100px;
+			height: 26px;
+			top: 40px;
+		}
 		a {
 			display: inline-block;
 			background: url("../img/recruit.svg") center center no-repeat;
