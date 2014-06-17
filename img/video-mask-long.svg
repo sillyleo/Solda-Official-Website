@@ -12,7 +12,7 @@
                 <mask id="mask-2" sketch:name="video-mask 2" fill="white">
                     <use xlink:href="#path-1"></use>
                 </mask>
-                <use id="video-mask-2" fill="#C01313" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+                <use id="video-mask-2" fill="#FFFFFF" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
             </g>
         </g>
     </g>

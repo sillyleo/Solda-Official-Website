@@ -14,9 +14,20 @@
 	<body onload="setupZoom()">
 
 		<section id="hero">
-			<div class="main-image">
+		   <div class="svgMask">
+        <svg width="594" height="760" baseProfile="full" version="1.2">
+            <defs>
+                <mask id="svgmask2" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" transform="scale(1)">
+                    <image width="594" height="760" xlink:href="img/video-mask-long.svg"/>
+                </mask>
+            </defs>
+            <image mask="url(#svgmask2)" width="594" height="890" y="0" x="0" xlink:href="img/yusha3.jpg"/>
+        </svg>
+	    </div>
+
+<!-- 			<div class="main-image">
 				<img class="wow fadeInUp" src="img/yusha1.jpg" alt="">
-			</div>
+			</div> -->
 <!-- 			<div class="video-wrapper">
 				<video muted poster="img/poster.jpg" ></video>
 				<a href="video/one-love.mp4"><img class="play-now" src="img/play.svg" alt="" /></a>

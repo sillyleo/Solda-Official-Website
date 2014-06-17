@@ -41,11 +41,23 @@ $video-w: 505px / 9 * 16;
 	padding: 0;
 }
 
+img,a {
+	outline: none;
+}
+
+a img {
+	border: none;
+}
+
 a {
 	text-decoration: none;
 	&:hover {
 		color: $red;
 	}
+}
+
+select::-ms-expand {
+    display: none;
 }
 
 section {
@@ -235,6 +247,7 @@ body {
 		@include col(50%, 30px);
 	}
 	.demo {
+	  perspective: 800px;
 	  -webkit-perspective: 800px;
 	  height: 320px;
 	  margin-top: 30px;
@@ -245,6 +258,7 @@ body {
 			background: #F7F3EE;
 			border: 1px solid white;
 			position: absolute;
+			transform-origin: center bottom;
 			-webkit-transform-origin: center bottom;
 			box-shadow: 0 -1px 4px rgba(0,0,0,0.3);
 			&:hover {
@@ -253,25 +267,31 @@ body {
 		}
 		.macbook {
 			&:hover {
+				transform: rotateX(-15deg) scale(1.05);
 				-webkit-transform: rotateX(-15deg) scale(1.05);
 			}
 			top: 0px;
+			transform: rotateX(-15deg);
 			-webkit-transform: rotateX(-15deg);
 		}
 		.ipad {
 			&:hover {
+				transform: rotateX(-18deg) scale(1);
 				-webkit-transform: rotateX(-18deg) scale(1);
 			}
 			top: 50px;
 			left: 10px;
+			transform: rotateX(-18deg) scale(0.94);
 			-webkit-transform: rotateX(-18deg) scale(0.94);
 		}
 		.iphone {
 			&:hover {
+				transform: rotateX(-21deg) scale(0.9);
 				-webkit-transform: rotateX(-21deg) scale(0.9);
 			}
 			top: 90px;
 			left: 25px;
+			transform: rotateX(-21deg) scale(0.8);
 			-webkit-transform: rotateX(-21deg) scale(0.8);
 		}
 	}
@@ -412,10 +432,18 @@ body {
 			-webkit-animation-direction: alternate;
 			-webkit-animation-iteration-count: infinite;
 			-webkit-animation-timing-function: ease-in-out;
+			animation-duration: 3s;
+			animation-direction: alternate;
+			animation-iteration-count: infinite;
+			animation-timing-function: ease-in-out;
 		}
 		.fb1 {
 			-webkit-animation-name: slideshow;
 			-webkit-animation-delay: 0s;
+			animation-name: slideshow;
+			animation-delay: 0s;
+			animation-name: slideshow;
+			animation-delay: 0s;
 			z-index: 1;
 		}
 	}
