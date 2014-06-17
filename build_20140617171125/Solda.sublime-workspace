@@ -1,0 +1,416 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html.erb",
+			"settings":
+			{
+				"buffer_size": 5218,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Leo/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 157,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pacl",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Leo/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/Leo/Dev/QueueBackend/app/assets/templates/main/cart.html",
+		"/Users/Leo/Dev/QueueBackend/app/assets/templates/invoice/invoiceCheckout.html",
+		"/Users/Leo/Dev/QueueBackend/app/assets/templates/invoice/invoiceCheckoutCompleted.html",
+		"/Users/Leo/Dev/QueueBackend/app/assets/stylesheets/partials/_checkout.scss",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/99a1dfc2e1b65fccebee96a2cad37067d058aa77/_checkout.scssc",
+		"/Users/Leo/Dev/QueueBackend/app/assets/stylesheets/style.scss.erb",
+		"/Users/Leo/Dev/QueueBackend/app/assets/stylesheets/partials/_product.scss.erb",
+		"/Users/Leo/Dev/QueueBackend/app/assets/stylesheets/product.css.scss",
+		"/Users/Leo/Dev/QueueBackend/app/admin/product.rb",
+		"/Users/Leo/Dev/QueueBackend/app/assets/templates/product/productView.html",
+		"/Users/Leo/Dev/QueueBackend/app/assets/javascripts/app/services/ProductService.js",
+		"/Users/Leo/Dev/QueueBackend/config/paypal.yml",
+		"/Users/Leo/Dev/QueueBackend/public/templates_back/modal/productPostFacebookModal.html",
+		"/Users/Leo/Dev/QueueBackend/public/templates_back/modal/productSendMessageModal.html",
+		"/Users/Leo/Dev/QueueBackend/app/assets/templates/product/productIndex.html",
+		"/Users/Leo/Dev/QueueBackend/app/api/entities/product_selling_entity.rb",
+		"/Users/Leo/Dev/QueueBackend/public/templates_back/product/productIndex.html",
+		"/Users/Leo/Dev/QueueBackend/app/controllers/products_controller.rb",
+		"/Users/Leo/Dev/QueueBackend/config/initializers/carrierwave.rb",
+		"/Users/Leo/Dev/QueueBackend/Capfile",
+		"/Users/Leo/Dev/QueueBackend/lib/capistrano/tasks/access_check.cap",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/3c30381de6dce316905ea1473992e0d805943a96/_keyframes.scssc",
+		"/Users/Leo/Dev/QueueBackend/vendor/assets/bower_components/offline/sass/_keyframes.sass",
+		"/Users/Leo/Dev/QueueBackend/vendor/assets/bower_components/angular-moment/karma.conf.js",
+		"/Users/Leo/Dev/QueueBackend/app/views/layouts/demo_layout.html.erb",
+		"/Users/Leo/Dev/QueueBackend/app/views/layouts/application.html.erb",
+		"/Users/Leo/Dev/QueueBackend/app/assets/stylesheets/partials/_product.scss",
+		"/Users/Leo/Dev/QueueBackend/public/images/checkout-complete.svg",
+		"/Users/Leo/Dev/QueueBackend/db/migrate/20140527075504_change_text_to_hstore.rb",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/a6c7d950f91ec56a13bd40479a0a0622ebbc0f9f/style.scss.erbc",
+		"/Users/Leo/Dev/QueueBackend/vendor/assets/bower_components/jquery/src/css/var/getStyles.js",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/a9b30fe79fe84e7624308a6ab740cf9e4c296d0b/_status_tags.scssc",
+		"/Users/Leo/Dev/QueueBackend/bin/spring",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/3c30381de6dce316905ea1473992e0d805943a96/_transform.scssc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/09346d28b7e0e72787465b36b7598543ac12e308/print.css.scssc",
+		"/Users/Leo/Dev/QueueBackend/db/migrate/20140311193935_change_encrypted_password_type_in_users.rb",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/792b8197f1b7b365289f773225abf4e88eca452c/_shape-size-stripper.scssc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/792b8197f1b7b365289f773225abf4e88eca452c/_linear-positions-parser.scssc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/792b8197f1b7b365289f773225abf4e88eca452c/_gradient-positions-parser.scssc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/6c5c021d632820e31f55ce6b67e59e0d6109ec79/_directional-values.scssc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/ada59a0c7b45f1e30efee86d45b26586cf423723/_transition-property-name.scssc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/a9b30fe79fe84e7624308a6ab740cf9e4c296d0b/_dropdown_menu.scssc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/3c30381de6dce316905ea1473992e0d805943a96/_hidpi-media-query.scssc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/a9b30fe79fe84e7624308a6ab740cf9e4c296d0b/_popovers.css.scssc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/c6b523da8164eaaa8d145d7ab12a9e8b79ec94d8/_prefixer.scssc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/6c5c021d632820e31f55ce6b67e59e0d6109ec79/_prefixer.scssc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/599faa0ac1e4675aa91c1bc208470b059e838431/_footer.scssc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/3c30381de6dce316905ea1473992e0d805943a96/_filter.scssc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/3c30381de6dce316905ea1473992e0d805943a96/_user-select.scssc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/3c30381de6dce316905ea1473992e0d805943a96/_perspective.scssc",
+		"/Users/Leo/Dev/QueueBackend/app/views/home/solda.html.erb",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/3c30381de6dce316905ea1473992e0d805943a96/_placeholder.scssc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/3c30381de6dce316905ea1473992e0d805943a96/_border-image.scssc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/49013466799e9df1cd0deff58a194eab531cbc26/_bourbon-deprecated-upcoming.scssc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/a9b30fe79fe84e7624308a6ab740cf9e4c296d0b/_date_picker.css.scssc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/99a1dfc2e1b65fccebee96a2cad37067d058aa77/_profile.scss.erbc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/99a1dfc2e1b65fccebee96a2cad37067d058aa77/_icons.scss.erbc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/ada59a0c7b45f1e30efee86d45b26586cf423723/_px-to-rem.scssc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/ada59a0c7b45f1e30efee86d45b26586cf423723/_golden-ratio.scssc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/3c30381de6dce316905ea1473992e0d805943a96/_image-rendering.scssc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/3c30381de6dce316905ea1473992e0d805943a96/_border-radius.scssc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/792b8197f1b7b365289f773225abf4e88eca452c/_radial-positions-parser.scssc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/792b8197f1b7b365289f773225abf4e88eca452c/_radial-arg-parser.scssc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/ada59a0c7b45f1e30efee86d45b26586cf423723/_radial-gradient.scssc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/792b8197f1b7b365289f773225abf4e88eca452c/_render-gradients.scssc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/6c5c021d632820e31f55ce6b67e59e0d6109ec79/_retina-image.scssc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/3c30381de6dce316905ea1473992e0d805943a96/_radial-gradient.scssc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/15ef2d6e370af785387307c1bc01ca4355aa72ab/_rounded.css.scssc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/15ef2d6e370af785387307c1bc01ca4355aa72ab/_reset.css.scssc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/99a1dfc2e1b65fccebee96a2cad37067d058aa77/_review.scssc",
+		"/Users/Leo/Dev/QueueBackend/tmp/cache/assets/development/sass/09346d28b7e0e72787465b36b7598543ac12e308/_header.css.scssc",
+		"/Users/Leo/Dev/QueueBackend/public/templates_back/partial/navbarHeader.html",
+		"/Users/Leo/Dev/QueueBackend/app/views/mailer_partial/_header.html.erb",
+		"/Users/Leo/Dev/QueueBackend/vendor/assets/bower_components/moment/lang/he.js",
+		"/Users/Leo/Dev/QueueBackend/app/controllers/home_controller.rb",
+		"/Users/Leo/Dev/QueueBackend/public/templates_back/product/productView.html",
+		"/Users/Leo/Dev/QueueBackend/app/views/review_mailer/new_review_notification.html.erb",
+		"/Users/Leo/Dev/QueueBackend/app/views/invoice_mailer/buyer_new_order_notification.html.erb",
+		"/Users/Leo/Dev/QueueBackend/spec/worker/new_order_notification_worker_spec.rb",
+		"/Users/Leo/Dev/QueueBackend/app/workers/new_order_notification_worker.rb",
+		"/Users/Leo/Dev/QueueBackend/spec/fixtures/message_mailer/new_message_notification",
+		"/Users/Leo/Dev/QueueBackend/config/newrelic.yml",
+		"/Users/Leo/Dev/QueueBackend/app/views/review_mailer/new_review_notification.text.erb",
+		"/Users/Leo/Dev/QueueBackend/spec/mailers/previews/new_review_preview.rb",
+		"/Users/Leo/Dev/QueueBackend/app/workers/new_review_notification_worker.rb",
+		"/Users/Leo/Dev/QueueBackend/app/api/entities/item_review_entity.rb",
+		"/Users/Leo/Dev/QueueBackend/app/api/entities/invoice_review_entity.rb",
+		"/Users/Leo/Dev/QueueBackend/app/assets/stylesheets/partials/_review.scss",
+		"/Users/Leo/Dev/QueueBackend/app/api/entities/review_detailed_entity.rb",
+		"/Users/Leo/Dev/QueueBackend/spec/mailers/review_mailer_spec.rb",
+		"/Users/Leo/Dev/QueueBackend/app/api/entities/review_entity.rb",
+		"/Users/Leo/Dev/QueueBackend/spec/models/review_spec.rb",
+		"/Users/Leo/Dev/QueueBackend/app/mailers/review_mailer.rb",
+		"/Users/Leo/Dev/QueueBackend/spec/factories/reviews.rb",
+		"/Users/Leo/Dev/QueueBackend/app/models/review.rb",
+		"/Users/Leo/Dev/QueueBackend/Rakefile",
+		"/Users/Leo/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"PAYMENT",
+			"fade",
+			"checkout-fade",
+			"運費",
+			"清空",
+			"remove",
+			"asset",
+			"arrow",
+			"asset",
+			"arrow",
+			"select",
+			"arrow",
+			"h2",
+			"quanti",
+			"shipping-options-wrapper",
+			"csrf_meta_tags",
+			"hover",
+			"price",
+			"h1",
+			"quan",
+			"貨"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html.erb",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 5218,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 703.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/Leo/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 157,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								116,
+								116
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "Solda.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"checkout",
+				"app/assets/templates/invoice/invoiceCheckout.html"
+			],
+			[
+				"product.sc",
+				"app/assets/stylesheets/partials/_product.scss.erb"
+			],
+			[
+				"sty",
+				"app/assets/stylesheets/style.scss.erb"
+			],
+			[
+				"cart",
+				"app/assets/templates/main/cart.html"
+			],
+			[
+				"product",
+				"app/assets/templates/product/productView.html"
+			],
+			[
+				"productin",
+				"app/assets/templates/product/productIndex.html"
+			],
+			[
+				"produ",
+				"app/assets/javascripts/app/services/ProductService.js"
+			],
+			[
+				"checkou",
+				"app/assets/stylesheets/partials/_checkout.scss"
+			],
+			[
+				"product.scss",
+				"app/assets/stylesheets/partials/_product.scss"
+			],
+			[
+				"style",
+				"app/assets/stylesheets/style.scss.erb"
+			],
+			[
+				"styles.css",
+				"app/assets/stylesheets/style.scss.erb"
+			],
+			[
+				"productview",
+				"app/assets/templates/product/productView.html"
+			],
+			[
+				"review",
+				"app/views/review_mailer/new_review_notification.html.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 252.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
