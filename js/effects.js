@@ -1,9 +1,11 @@
 $("document").ready(function() {
-  /*   video animation */
-/*
-  $("video.test").click(function(){
-    $(this).toggleClass("masked");
-  });  
-*/
+  
+  $("a.close, .overlay-player").click(function(){
+  	$(".overlay-player").hide();
+  })
+	
+  $("a.play").click(function(){
+  	$(".overlay-player").show();
+  })
 	
 });

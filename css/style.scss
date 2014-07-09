@@ -108,7 +108,46 @@ body {
 	font-family: sans-serif;
 }
 
+section.overlay-player {
+	background: #FAF8F5;
+	position: fixed;
+	display: none;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 100;
+	.close {
+	  position: absolute;
+	  top: 20px;
+	  left: 20px;
+	  color: #666;
+	  font-size: 30px;
+	}
+	div.out {
+		div.in {
+			width: 800px;
+			margin: 0 auto;
+		}
+		border-radius: 6px;
+		width: 100%;
+		height: 450px;
+	  position: absolute;
+	  top: 50%;
+	  height: 450px;
+	  margin-top: -225px;
+ 	}
+}
+
 #hero {
+	.play {
+		position: absolute;
+		left: 395px;
+		top: 265px;
+	}
+	position: relative;
 	margin-top: 80px;
 	text-align: center;
 	.main-image {

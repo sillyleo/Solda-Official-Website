@@ -8,46 +8,77 @@
 		<script>
 				new WOW().init();
 		</script>
+		<script src="js/jquery-2.1.0.min.js"></script>
+		<script src="js/effects.js"></script>
 		<meta charset="UTF-8">
-		<title>Solda – 便利溝通、輕快販賣。</title>
-		<meta property="og:url" content="http://solda.io" /> 
+		<title>Solda 手打自販 – 便利溝通、輕快販賣。</title>
+	    <meta name="description" content="Solda 手打自販是一個用 iPhone 發佈商品到社群網站的拍賣平台。整合簡便的上架、金流、與即時通訊，再也不需煩惱架站、對帳、出貨通知等雜事，讓您可以專注在自己的商品與經營">
+		<meta property="og:url" content="https://solda.io" /> 
 		<meta property="og:title" content="Solda – 便利溝通、輕快販賣。" />
 		<meta property="og:description" content="想賣什麼？用 iPhone 就能輕快上線！" /> 
-		<meta property="og:image" content="http://solda.io/img/yusha3.jpg" /> 
-		<!-- 這樣的圖片連結對嗎？ -->
+		<meta property="og:type"   content="website" />
+		<meta property="og:image" content="https://solda.io/img/yusha2.jpg" /> 
+		<meta property="fb:app_id" content="1396825883930843" />
+		<!-- ****** faviconit.com favicons ****** -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico">
+		<link rel="icon" type="image/png" sizes="196x196" href="/favicon-196.png">
+		<link rel="icon" type="image/png" sizes="160x160" href="/favicon-160.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+		<link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/favicon-152.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/favicon-144.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/favicon-120.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/favicon-114.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/favicon-76.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/favicon-72.png">
+		<link rel="apple-touch-icon" href="/favicon-57.png">
+		<meta name="msapplication-TileColor" content="#FFFFFF">
+		<meta name="msapplication-TileImage" content="/favicon-144.png">
+		<meta name="msapplication-config" content="/browserconfig.xml">
+		<!-- ****** faviconit.com favicons ****** -->
 	</head>
 	<body onload="setupZoom()">
 
+		<section class="overlay-player">
+			<a href="#" class="close">關閉</a>
+			<div class="out">
+				<div class="in">
+					<iframe src="//player.vimeo.com/video/100282378?title=0&amp;byline=0&amp;portrait=0&amp;color=ff4800" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				</div>
+			</div>
+		</section>
+
 		<section id="hero">
+				<a href="#" class="play"><img src="img/play.svg" width="110" height="110" alt=""></a>
 		   <div class="svgMask">
-        <svg width="594" height="760" baseProfile="full" version="1.2">
-            <defs>
-                <mask id="svgmask2" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" transform="scale(1)">
-                    <image width="594" height="760" xlink:href="img/video-mask-long.svg"/>
-                </mask>
-            </defs>
-            <image mask="url(#svgmask2)" width="594" height="890" y="0" x="0" xlink:href="img/yusha3.jpg"/>
+        	<svg width="594" height="505" baseProfile="full" version="1.2">
+            	<defs>
+                	<mask id="svgmask2" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" transform="scale(1)">
+                    	<image width="594" height="505" xlink:href="img/video-mask.svg"/>
+                	</mask>
+	            </defs>
+            <image mask="url(#svgmask2)" width="594" height="505" y="0" x="0" xlink:href="img/hero.jpg"/>
         </svg>
 	    </div>
 
-<!-- 			<div class="main-image">
-				<img class="wow fadeInUp" src="img/yusha1.jpg" alt="">
-			</div> -->
-<!-- 			<div class="video-wrapper">
-				<video muted poster="img/poster.jpg" ></video>
-				<a href="video/one-love.mp4"><img class="play-now" src="img/play.svg" alt="" /></a>
-			</div> -->
 		<h1 class="slogan">
 		手打你的輕快販賣
 		</h1>
 		<h3 class="punch-line">想賣什麼？用 iPhone 就能輕快上線！</h3>
 		
 		<div class="recruit">
-			<a href="#apply">商家<br/>召募中</a>
-			<span>為提昇服務品質，初期限量召募中。</span>
+			<a href="#apply">免費<br/>召募中</a>
+			<span>為提昇服務品質，商家限量召募中。</span>
 			<div class="fbla">
-				<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fsolda.io&amp;width=100&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21&amp;appId=1396825883930843" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
+				<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FSoldaApp&amp;width=100&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21&amp;appId=1396825883930843" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
+				<br/>
+				<a href="https://twitter.com/share" class="twitter-share-button" data-lang="zh-tw" data-related="soldaapp">推文</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 			</div>
+
 		</div>
 		
 		<p><img src="img/cross.svg" class="cross" alt="" /></p>
@@ -140,7 +171,7 @@
 			<p>每次交易，都能累積評價，讓顧客更放心購買你的商品。</p>
 			<img src="img/browser.svg" alt="" />
 			<h3>網路版後台</h3>
-			<p>手打也提供網頁版後台，用筆電傳訊息與處理訂單。</p>
+			<p>手打也提供網頁版後台，用電腦傳訊息與處理訂單。</p>
 		</div>
 		<div class="right">
 			<div class="rates">
@@ -170,15 +201,32 @@
 			<p>為維持服務品質，我們會分批發送邀請，<br/>服務穩定再慢慢增加商家，敬請耐心等候。</p>
 			<h3>更多資訊</h3>
 			<p class="social-links">
-			<a href="https://www.facebook.com/groups/solda.seller/">手打商家社團<br/><span>Facebook 秘密社團</span></a>
+			<a href="https://www.facebook.com/SoldaApp">手打粉絲頁<br/><span>Facebook 粉絲頁</span></a>
+			<a href="https://twitter.com/soldaapp">手打推特<br/><span>追蹤新消息</span></a>
+<!-- 			<a href="https://www.facebook.com/groups/solda.seller/">手打商家社團<br/><span>Facebook 秘密社團</span></a>
 			<a href="mailto:support@solda.io">聯繫我們<br/><span>support@solda.io</span></a>
-<!-- 			<a class="inactive">媒體資訊<br/><span>coming soon</span></a>
+ 			<a class="inactive">媒體資訊<br/><span>coming soon</span></a>
 			<a class="inactive">常見問題<br/><span>coming soon</span></a>
- -->			</p>
+ -->			
+ 			</p>
+ 			<p>			
+				<a href="https://twitter.com/soldaapp" class="twitter-follow-button" data-show-count="false" data-lang="zh-tw" data-size="large">跟隨 @soldaapp</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+ 			</p>	
 			<hr />
 			<p><!-- <a href="#"><img src="img/company.svg" width="96" alt="" /><br/> --></a> Copyright 2014 © 手打自販</p>
 		</div>
 	</section>
 	
+	<!-- google analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-51407675-2', 'solda.io');
+	  ga('send', 'pageview');
+	</script>
 </body>
 </html>
