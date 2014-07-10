@@ -146,6 +146,10 @@ section.overlay-player {
 		position: absolute;
 		left: 395px;
 		top: 265px;
+		opacity: 0.8;
+		&:hover {
+			opacity: 1;
+		}
 	}
 	position: relative;
 	margin-top: 80px;
