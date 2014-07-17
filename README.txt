@@ -1,1 +1,1 @@
-Insert some clever text here.\n
+Watch with Fire.app.
